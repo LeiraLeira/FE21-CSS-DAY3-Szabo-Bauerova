@@ -1,0 +1,35 @@
+/*general*/
+
+/*navigation bar*/
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: flex-end;
+  height: 3rem;
+  text-align: center;
+  margin: 5rem 10rem;
+}
+.box {
+  display: flex;
+  width: 8rem;
+  height: 3rem;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  /*padding-top: 30px; */
+}
+.box1:hover {
+  background-color: red;
+  transform: skewY(-20deg);
+}
+.box2:hover {
+  background-color: green;
+  transform: rotate(180deg);
+}
+.box3:hover {
+  background-color: blue;
+  transform: skewY(20deg);
+}
